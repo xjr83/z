@@ -1,0 +1,45 @@
+[
+  {
+    "outputFileName": "bundle-unoptimized.css",
+    "inputFiles": [
+      "bower_components/slick.js/slick/slick.css",
+      "bower_components/slick.js/slick/slick-theme.css",
+      "bootstrap/dist/css/bootstrap-custom.css",
+      "styles/style.css",
+      "styles/theme/theme-apk.css",
+      "theme-custom.css"
+    ]
+  },
+  {
+    "outputFileName": "bundle.js",
+    "inputFiles": [
+      "scripts/script-custom-map.js",
+      "bower_components/jquery/dist/jquery.min.js",
+      "lib/tween/tween.min.js",
+      "bootstrap/dist/js/bootstrap.min.js",
+      "bower_components/modernizr/modernizr.js",
+      "bower_components/jquery-cookie/jquery.cookie.js",
+      "bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js",
+      "bower_components/slick.js/slick/slick.min.js",
+      "bower_components/shufflejs/dist/jquery.shuffle.min.js",
+      "bower_components/textillate/assets/jquery.lettering.js",
+      "bower_components/textillate/assets/jquery.fittext.js",
+      "bower_components/textillate/jquery.textillate.js",
+      "scripts/script-bundle.js",
+      "scripts/script-custom.js"
+    ]
+  },
+  {
+    "outputFileName": "bundle-optimized.css",
+    "inputFiles": [
+      "bundle-unoptimized.css",
+      "bower_components/animate.css/animate.min.css"
+    ]
+  },
+  {
+    "outputFileName": "index.min.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  }
+]

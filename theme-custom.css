@@ -1,0 +1,354 @@
+.home-angie
+{
+	width: auto;
+}
+
+.logo
+{
+	padding: 0 0 0 0;
+	background-image: url(images/logo-large.png);
+	background-image: url(images/logo.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.no-margin-padding
+{
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+}
+
+#gwarancje > .view > .content > .container
+{
+	padding-bottom: 48px;
+}
+
+.kontakt-background
+{
+	background: url(images/gabinet06.jpg), linear-gradient(transparent 0, transparent 70%, black 120%);
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin-bottom: 0;
+}
+
+	.kontakt-background h2
+	{
+		padding-top: 35vh;
+		padding-bottom: 2vh;
+		margin: 0 0;
+		color: #fff;
+	}
+
+@media (max-width: 991px)
+{
+	.home-angie .full-size
+	{
+		padding-top: 210px !important;
+		padding-bottom: 210px !important;
+	}
+}
+
+#top-nav .navbar-brand
+{
+	display: inline;
+	padding: 4px 0 4px 24px;
+	padding-left: 24px;
+}
+
+.logo-small
+{
+	padding: 0 0 0 0;
+	height: 40px;
+}
+
+.logo-background
+{
+	background-color: transparent;
+}
+
+.page-border.right
+{
+	bottom: 0;
+	width: 0;
+	border: none;
+}
+
+.page-border.left
+{
+	bottom: 0;
+}
+
+body
+{
+	padding-right: 0;
+	font-size: 15px;
+}
+
+.guarantee
+{
+	margin: 20px 0;
+}
+
+	.guarantee em
+	{
+		padding-left: 10px;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+.row
+{
+	padding: 0 0 0 0;
+}
+
+p
+{
+	font-size: 15px;
+	letter-spacing: 0.75px;
+}
+
+ul
+{
+	letter-spacing: 0.5px;
+}
+
+#dot-scroll
+{
+	right: auto;
+	left: 10px;
+}
+
+#top-nav
+{
+	margin-right: 0;
+}
+
+.ext-nav
+{
+	bottom: 0;
+	right: 0;
+}
+
+.home-angie h1
+{
+	margin-left: 5%;
+	font-size: 700%;
+	font-weight: 700;
+	text-transform: none;
+}
+
+.icon-margin
+{
+	padding: 15% 20% 0 20%;
+}
+
+.icon-personel
+{
+	padding: 10% 10% 10% 10%;
+}
+
+#map-canvas
+{
+	height: 70vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body > footer
+{
+	padding: 0 0 0 0;
+}
+
+	body > footer .bottom
+	{
+		margin-top: 0;
+	}
+
+.quotation
+{
+	height: 170px;
+}
+
+.incut
+{
+	height: 300px;
+}
+
+p.pricelist
+{
+	text-align: right;
+	margin-right: 32px;
+}
+
+dl.open
+{
+	display: inline-block;
+	width: 200px;
+}
+
+	dl.open dt
+	{
+		float: left;
+		clear: left;
+		width: 100px;
+		text-align: right;
+	}
+
+	dl.open dd
+	{
+		margin: 0 0 0 110px;
+	}
+
+dl.pricelist dt
+{
+	float: left;
+	width: calc(100% - 80px);
+	clear: left;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	font-weight: normal;
+}
+
+dl.pricelist dd
+{
+	margin-left: calc(100% - 70px);
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+dl.pricelist-center dt
+{
+	width: calc(50% - 5px);
+}
+
+dl.pricelist-center dd
+{
+	margin-left: calc(50% + 5px);
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.card
+{
+	padding: 8px 8px 8px 8px;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.50);
+}
+
+.icon-caption
+{
+	letter-spacing: 0;
+	font-size: 12px;
+	line-height: 14px;
+	padding-top: 10px;
+	color: #333;
+}
+
+
+@media (max-width: 768px)
+{
+	.mobile-fixedwidth
+	{
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.ext-nav a
+{
+	height: 20% !important;
+	padding: 0 0 0 0;
+}
+
+.ext-nav .full-height
+{
+	height: 100%;
+}
+
+.ext-nav .row
+{
+	margin: 0 0 0 0;
+}
+
+/*@media (min-width: 768px)
+{
+	dl.pricelist dt
+	{
+		margin-left: calc(80%);
+	}
+	dl.pricelist dd
+	{
+		margin-left: calc(85%);
+	}
+}*/
+
+.view > .content
+{
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.ext-nav > .view > .content
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#guarantee
+{
+	padding-bottom: 0;
+}
+
+@media (max-width: 991px)
+{
+	.view > .content
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.text-justify
+	{
+		text-align: left;
+	}
+}
+
+.text-huge
+{
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin: 0 0 0 0;
+}
+
+@media (max-width: 768px)
+{
+	.text-huge
+	{
+		font-size: 20px;
+		line-height: 26px;
+	}
+}
+
+.info-window
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	display: block;
+}
+
+.filter-blur
+{
+	-webkit-filter: blur(6px);
+	-moz-filter: blur(6px);
+	-o-filter: blur(6px);
+	-ms-filter: blur(6px);
+	filter: blur(6px);
+}
